@@ -1,24 +1,23 @@
 Package: GMEselection
 Type: Package
-Title: Variable Selection with Generalized Maximum Entropy (http://github.com/jpedroan/GMEselection)
-Description: A variable selection procedure for regression models based on Generalized Maximum Entropy estimation (A. Golan, J. Judge and D. Miller, Maximum Entropy Econometrics, Wiley, 1996; Chapter 10). The procedure is useful for well- and ill-posed regression models, namely in models exhibiting small sample sizes, collinearity and non-normal errors.
+Title: Variable Selection with Generalized Maximum Entropy
+Description: A variable selection procedure for regression models based on
+    Generalized Maximum Entropy estimation (A. Golan, J. Judge and D. Miller,
+    Maximum Entropy Econometrics, Wiley, 1996; Chapter 10). The procedure is useful
+    for well- and ill-posed regression models, namely in models exhibiting small
+    sample sizes, collinearity and non-normal errors.
 Version: 0.1.0
-Author: Pedro Macedo <pmacedo@ua.pt>
-Maintainer: João Pedro Cruz <pedrocruz@ua.pt>
 Authors@R: c(
-        person("Pedro", "Macedo",
-             email = "pmacedo@ua.pt", role = c("aut", "cre")),
-        person("João Pedro", "Cruz",
-             email = "pedrocruz@ua.pt", role = c("aut", "cre")),
-)
+    person("Joao Pedro", "Cruz",email = "pedrocruz@ua.pt", role = c("aut", "cre")),
+    person("Pedro", "Macedo",email = "pmacedo@ua.pt", role = c("aut"))
+    )
 Depends:
     R (>= 3.0.1)
-License: MIT
+License: MIT + file LICENSE
 LazyData: true
 Imports:
-    stringr
+    nloptr
 Suggests:
-    knitr,
-    microbenchmark,
     testthat
 Roxygen: list(wrap = FALSE)
+RoxygenNote: 5.0.1
