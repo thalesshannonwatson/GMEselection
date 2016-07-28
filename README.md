@@ -1,3 +1,6 @@
+
+**This package is only a draft and waits for a propor optimization algorithm.**
+
 # GMEselection
 Variable Selection with Generalized Maximum Entropy 
 
